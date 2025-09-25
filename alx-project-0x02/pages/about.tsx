@@ -1,9 +1,13 @@
+import Header from '@/components/layout/Header'
 import React from 'react'
 
 const About = () => {
   return (
     <div>
-        <h1> This is the About Page</h1>
+      <Header />
+      <main className="p-4">
+        <h1 className="text-2xl font-bold"> This is the About Page</h1>
+      </main>
     </div>
   )
 }
