@@ -16,7 +16,7 @@ const Posts: React.FC<{ posts: PostProps[] }> = ({ posts }) => {
                   key={post.id} 
                   title={post.title} 
                   content={post.content} 
-                  userID={post.userID} 
+                  userId={post.userId} 
                   id={post.id}
                 />
               ))

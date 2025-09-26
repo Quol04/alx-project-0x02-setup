@@ -1,7 +1,7 @@
 import React from 'react'
 import { type PostProps } from '@/interfaces';
 
-const PostCard: React.FC<PostProps> = ({ id, title, content, userID }) => {
+const PostCard: React.FC<PostProps> = ({ id, title, content, userId }) => {
   return (
     <div className='mt-4 p-6 bg-white border border-gray-200 rounded-lg shadow-sm hover:shadow-md transition-shadow duration-300'>
       <div className="flex justify-between items-start mb-3">
@@ -9,7 +9,7 @@ const PostCard: React.FC<PostProps> = ({ id, title, content, userID }) => {
           Post #{id}
         </span>
         <span className="text-xs text-gray-500">
-          User {userID}
+          User {userId}
         </span>
       </div>
       
