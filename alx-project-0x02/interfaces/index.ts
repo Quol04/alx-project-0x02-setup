@@ -26,3 +26,19 @@ export interface PostProps {
 export interface PostPageProps{
   posts: PostProps[];
 }
+
+export interface UserProps {
+  id: number;
+  name: string;
+  email: string;
+  address: {
+    street: string;
+    city: string;
+    zipcode: string;
+  };
+  phone: string;
+}
+
+export interface UserPageProps{
+  posts: UserProps[];
+}
