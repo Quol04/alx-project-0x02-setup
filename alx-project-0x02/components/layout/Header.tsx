@@ -8,6 +8,7 @@ const Header: React.FC = () => {
         <nav className="space-x-4 cursor-pointer">
           <Link href="/home">Home</Link>
           <Link href="/about">About</Link>
+          <Link href="/posts">Posts</Link>
         </nav>
     </header>
   )
